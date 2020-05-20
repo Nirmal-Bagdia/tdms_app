@@ -1,0 +1,8 @@
+package in.codeblog.tdms.repositories;
+
+import org.springframework.data.repository.CrudRepository;
+
+public interface ProjectRepository extends CrudRepository<Project, Long>{
+
+	<Project> void findAllTopics();
+}

@@ -1,0 +1,15 @@
+package in.codeblog.tdms.service;
+
+import org.springframework.stereotype.Service;
+
+import in.codeblog.tdms.domain.Project;
+import in.codeblog.tdms.repositories.ProjectRepository;
+
+@Service
+public class ProjectService {
+	
+	private ProjectRepository projectRepository; 
+	private Iterable<Project> findAllTopics() {
+		return projectRepository.findAll();
+	}
+}

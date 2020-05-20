@@ -1,0 +1,13 @@
+package in.codeblog.tdms.web;
+
+import in.codeblog.tdms.service.ProjectService;
+
+public class ProjectController {
+	
+	public void getAllTopics() {
+		
+		return projectService.getAllTopics();
+
+	}
+
+}

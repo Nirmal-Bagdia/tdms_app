@@ -1,0 +1,18 @@
+package in.codeblog.tdms.web;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.RestController;
+
+import in.codeblog.tdms.service.ProjectService;
+@RestController
+public class ProjectController {
+	
+	@Autowired
+	private ProjectService projectService;
+	
+	public void getAllTopics() {
+		return projectService.findAllTopics();
+
+	}
+
+}

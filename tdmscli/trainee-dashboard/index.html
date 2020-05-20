@@ -1,0 +1,520 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet"  href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    
+   <script src="https://use.fontawesome.com/releases/v5.12.1/js/all.js" data-auto-a11y="true"></script>
+
+    <title>YTDMS-APP</title>
+  </head>
+  <body>
+    <div class="transition d-none">
+        <div class="layer"></div>
+        <div class="layer"></div>
+        <div class="layer"></div>
+    </div>
+    <!--HEADER-->
+    <header id="main-header">
+    <div class="container">
+      
+<nav class="navbar fixed-top navbar-light bg-light pb-4 navbar-expand-lg">
+    <a class="navbar-brand" href="#">YTDMS</a>
+    <div class="d-flex flex-row order-2 order-lg-3">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    </div>
+    <div class="collapse navbar-collapse order-3 order-lg-2" id="navbarNavDropdown">
+        <ul class="navbar-nav ml-auto">
+            <div class="row">
+                <div class="input-group icon-search">
+                    <i class="fa fa-search m-3"></i> <input class="form-control icon-search-box py-2 border-left-0 border" type="search" placeholder="Search" id="search-input">    
+                </div>
+            </div>
+            <li class="nav-item"><a class="nav-link" href="#"><i class='fas fa-user-circle'></i> Profile</a></li>
+            <li class="nav-item"><a class="nav-link" href="#"><i class='fas fa-bell'></i> Notifications</a></li>
+            <li class="nav-item"><a class="nav-link" href="#"><i class='fas fa-code'></i> Samples</a></li>
+         
+        </ul>
+    </div>
+ </nav>
+
+    </div>
+    </header>
+    <!-- MAIN -->
+    <!--SIDE BAR-->
+<div class="wrapper">
+  <div id="main-content">
+   <div class="row">
+     <div class="col-3 collapse show d-md-flex bg-light min-vh-100 border border-left-0" id="sidebar">
+          <ul class="nav flex-column flex-nowrap overflow-hidden"> 
+              <li class="nav-item">
+                  <div class="doc-heading p-3"><span>Core Java</span></div>
+                  <a class="nav-link collapsed text-truncate" href="#submenu1" data-toggle="collapse" data-target="#submenu1"><span class="d-none d-sm-inline side-nav-title">Java Data types And Keywords</span></a>
+                    <div class="collapse" id="submenu1" aria-expanded="false">
+                        <ul class="flex-column pl-2 nav">
+                            <li class="nav-item"><a class="active nav-link py-0" href="#"><span class="side-nav-title topics">Primitive data types</span></a></li>
+                            <li class="nav-item"><a class="nav-link py-0" href="#"><span class="side-nav-title topics">Non-Primitive data types</span></a></li>
+                            <li class="nav-item"><a class="nav-link py-0" href="#"><span class="side-nav-title topics">Keywords</span></a></li>
+                        </ul>
+                    </div>                
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link collapsed text-truncate" href="#submenu2" data-toggle="collapse" data-target="#submenu2"><span class="d-none d-sm-inline side-nav-title">Java Variables</span></a>
+                    <div class="collapse" id="submenu2" aria-expanded="false">
+                        <ul class="flex-column pl-2 nav">
+                            <li class="nav-item"><a class="nav-link py-0" href="#"><span class="side-nav-title topics">Local</span></a></li>
+                            <li class="nav-item"><a class="nav-link py-0" href="#"><span class="side-nav-title topics">Instance</span></a></li>
+                            <li class="nav-item"><a class="nav-link py-0" href="#"><span class="side-nav-title topics">Static</span></a></li>
+                            <li class="nav-item">
+                                <a class="nav-link collapsed py-1" href="#submenu2sub2" data-toggle="collapse" data-target="#submenu2sub2"><span class="side-nav-title">XYZ</span></a>
+                                <div class="collapse" id="submenu2sub2" aria-expanded="false">
+                                    <ul class="flex-column nav pl-4">
+                                        <li class="nav-item">
+                                            <a class="nav-link p-1 side-nav-title" href="#">XYZ </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link p-1 side-nav-title" href="#">XYZ </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link p-1 side-nav-title" href="#">XYZ </a>
+                                        </li>
+                                        
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="nav-item"><a class="nav-link py-0" href="#"><span class="side-nav-title topics">XYZ</span></a></li>
+                        </ul>
+                    </div>                
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link collapsed text-truncate" href="#submenu3" data-toggle="collapse" data-target="#submenu3"><span class="d-none d-sm-inline side-nav-title">Java Operators</span></a>
+                    <div class="collapse" id="submenu3" aria-expanded="false">
+                        <ul class="flex-column pl-2 nav">
+                            <li class="nav-item"><a class="nav-link py-0" href="#"><span class="side-nav-title topics">Unary Operator</span></a></li>
+                            <li class="nav-item"><a class="nav-link py-0" href="#"><span class="side-nav-title topics">Arithmetic Operator</span></a></li>
+                            <li class="nav-item"><a class="nav-link py-0" href="#"><span class="side-nav-title topics">Shift Operator</span></a></li>
+                            <li class="nav-item"><a class="nav-link py-0" href="#"><span class="side-nav-title topics">Relational Operator</span></a></li>
+                            <li class="nav-item"><a class="nav-link py-0" href="#"><span class="side-nav-title topics">Bitwise  Operator</span></a></li>
+                            <li class="nav-item"><a class="nav-link py-0" href="#"><span class="side-nav-title topics">Logical  Operator</span></a></li>
+                            <li class="nav-item"><a class="nav-link py-0" href="#"><span class="side-nav-title topics">Ternary  Operator</span></a></li>
+                            <li class="nav-item"><a class="nav-link py-0" href="#"><span class="side-nav-title topics">Assignment   Operator</span></a></li>
+                        </ul>
+                    </div>                
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link collapsed text-truncate" href="#submenu4" data-toggle="collapse" data-target="#submenu4"><span class="d-none d-sm-inline side-nav-title">Control Statements</span></a>
+                    <div class="collapse" id="submenu4" aria-expanded="false">
+                        <ul class="flex-column pl-2 nav">
+                            <li class="nav-item">
+                                <a class="nav-link collapsed py-1" href="#submenu4sub4" data-toggle="collapse" data-target="#submenu4sub4"><span class="side-nav-title topics">Java If-else</span></a>
+                                <div class="collapse" id="submenu4sub4" aria-expanded="false">
+                                    <ul class="flex-column nav pl-4">
+                                        <li class="nav-item">
+                                            <a class="nav-link p-1 side-nav-title topics" href="#">if statement </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link p-1 side-nav-title topics" href="#">if-else statement </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link p-1 side-nav-title topics" href="#">if-else-if ladder </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link p-1 side-nav-title topics" href="#">nested if statement </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="nav-item"><a class="nav-link py-0" href="#"><span class="side-nav-title topics">Java Switch</span></a></li>
+                            <li class="nav-item">
+                                    <a class="nav-link collapsed py-1" href="#submenu5sub5" data-toggle="collapse" data-target="#submenu5sub5"><span class="side-nav-title topics">Loops in Java</span></a>
+                                    <div class="collapse" id="submenu5sub5" aria-expanded="false">
+                                        <ul class="flex-column nav pl-4">
+                                            <li class="nav-item">
+                                                <a class="nav-link p-1 side-nav-title " href="#">for loop </a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link p-1 side-nav-title " href="#">while loop </a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link p-1 side-nav-title " href="#">do-while loop </a>
+                                            </li>
+                                           
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="nav-item"><a class="nav-link py-0" href="#"><span class="side-nav-title topics">Java Break Statement</span></a></li>
+                                <li class="nav-item"><a class="nav-link py-0" href="#"><span class="side-nav-title topics">Java Continue Statement</span></a></li>
+                                <li class="nav-item">
+                                        <a class="nav-link collapsed py-1" href="#submenu6sub6" data-toggle="collapse" data-target="#submenu6sub6"><span class="side-nav-title">Java Comments</span></a>
+                                        <div class="collapse" id="submenu6sub6" aria-expanded="false">
+                                            <ul class="flex-column nav pl-4">
+                                                <li class="nav-item">
+                                                    <a class="nav-link p-1 side-nav-title " href="#">Single Line Comment </a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link p-1 side-nav-title" href="#">Multi Line Comment </a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link p-1 side-nav-title" href="#">Documentation Comment </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                        </ul>
+                    </div>                
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link collapsed text-truncate" href="#submenu5" data-toggle="collapse" data-target="#submenu5"><span class="d-none d-sm-inline side-nav-title">Java Object Class</span></a>
+                    <div class="collapse" id="submenu5" aria-expanded="false">
+                        <ul class="flex-column pl-2 nav">
+                            <li class="nav-item"><a class="nav-link py-0" href="#"><span class="side-nav-title topics">Object</span></a></li>
+                            <li class="nav-item"><a class="nav-link py-0" href="#"><span class="side-nav-title topics">Class</span></a></li>
+                            <li class="nav-item"><a class="nav-link py-0" href="#"><span class="side-nav-title topics">Inheritance</span></a></li>
+                            <li class="nav-item"><a class="nav-link py-0" href="#"><span class="side-nav-title topics">Polymorphism</span></a></li>
+                            <li class="nav-item"><a class="nav-link py-0" href="#"><span class="side-nav-title topics">Abstraction</span></a></li>
+                            <li class="nav-item"><a class="nav-link py-0" href="#"><span class="side-nav-title topics">Encapsulation</span></a></li>
+                            <li class="nav-item"><a class="nav-link py-0" href="#"><span class="side-nav-title topics">Coupling</span></a></li>
+                            <li class="nav-item"><a class="nav-link py-0" href="#"><span class="side-nav-title topics">Cohesion</span></a></li>
+                            <li class="nav-item"><a class="nav-link py-0" href="#"><span class="side-nav-title topics">Aggregation</span></a></li>
+                        </ul>
+                    </div>                
+              </li>
+              <li class="nav-item border-top">
+                    <div class="doc-heading p-3"><span >Servlet</span></div>
+                  <a class="nav-link collapsed text-truncate" href="#submenu6" data-toggle="collapse" data-target="#submenu6"><span class="d-none d-sm-inline side-nav-title">Servlet_Overview</span></a>
+                    <div class="collapse" id="submenu6" aria-expanded="false">
+                        <ul class="flex-column pl-2 nav">
+                            <li class="nav-item"><a class="nav-link py-0" href="#"><span class="side-nav-title topics">Dynamic_Webapplication</span></a></li>
+                            <li class="nav-item"><a class="nav-link py-0" href="#"><span class="side-nav-title topics">Discussion_on_http</span></a></li>
+                            <li class="nav-item"><a class="nav-link py-0" href="#"><span class="side-nav-title topics">Response_format_req_methods</span></a></li>
+                            <li class="nav-item"><a class="nav-link py-0" href="#"><span class="side-nav-title topics">TCPPort_webapp_architech</span></a></li>
+                            <li class="nav-item"><a class="nav-link py-0" href="#"><span class="side-nav-title topics">Tomcat_configuration_steps</span></a></li>
+                            <li class="nav-item"><a class="nav-link py-0" href="#"><span class="side-nav-title topics">Tomcat_conf_practical</span></a></li>
+                            <li class="nav-item"><a class="nav-link py-0" href="#"><span class="side-nav-title topics">Servlet_practical_eclipse</span></a></li>
+                            <li class="nav-item"><a class="nav-link py-0" href="#"><span class="side-nav-title topics">Servlet_using_notepad</span></a></li>
+                            <li class="nav-item"><a class="nav-link py-0" href="#"><span class="side-nav-title topics">Servlet_Start-Up_assignments</span></a></li>
+                            <li class="nav-item"><a class="nav-link py-0" href="#"><span class="side-nav-title topics">Webapplication_architecture</span></a></li>
+                            <li class="nav-item"><a class="nav-link py-0" href="#"><span class="side-nav-title topics">Report_Generation_Servlet</span></a></li>
+                        </ul>
+                    </div>                
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link collapsed text-truncate" href="#submenu7" data-toggle="collapse" data-target="#submenu7"><span class="d-none d-sm-inline side-nav-title">More_About_Servlet</span></a>
+                    <div class="collapse" id="submenu7" aria-expanded="false">
+                        <ul class="flex-column pl-2 nav">
+                            <li class="nav-item"><a class="nav-link py-0" href="#"><span class="side-nav-title topics">Form_Based_Servlet</span></a></li>
+                            <li class="nav-item"><a class="nav-link py-0" href="#"><span class="side-nav-title topics">Advance_Form_Based</span></a></li>
+                            <li class="nav-item"><a class="nav-link py-0" href="#"><span class="side-nav-title topics">File_Uploading_Servlet</span></a></li>
+                            
+                            <li class="nav-item"><a class="nav-link py-0" href="#"><span class="side-nav-title topics">File_Download_Servlet</span></a></li>
+                        </ul>
+                    </div>                
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link collapsed text-truncate" href="#submenu8" data-toggle="collapse" data-target="#submenu8"><span class="d-none d-sm-inline side-nav-title">Configuration_ServletChaining</span></a>
+                    <div class="collapse" id="submenu8" aria-expanded="false">
+                        <ul class="flex-column pl-2 nav">
+                            <li class="nav-item"><a class="nav-link py-0" href="#"><span class="side-nav-title topics">Servlet_Conf_Context_Concept</span></a></li>
+                            <li class="nav-item"><a class="nav-link py-0" href="#"><span class="side-nav-title topics">Servlet_Conf_Context_Practical</span></a></li>
+                            <li class="nav-item"><a class="nav-link py-0" href="#"><span class="side-nav-title topics"> Servlet_Context_Concept</span></a></li>
+                         
+                            <li class="nav-item"><a class="nav-link py-0" href="#"><span class="side-nav-title topics"> Servlet_Context_Practical</span></a></li>
+                        </ul>
+                    </div>                
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link collapsed text-truncate" href="#submenu9" data-toggle="collapse" data-target="#submenu9"><span class="d-none d-sm-inline side-nav-title">Session Management</span></a>
+                    <div class="collapse" id="submenu9" aria-expanded="false">
+                        <ul class="flex-column pl-2 nav">
+                            <li class="nav-item"><a class="nav-link py-0" href="#"><span class="side-nav-title topics">Session_Management_Concept</span></a></li>
+                            <li class="nav-item"><a class="nav-link py-0" href="#"><span class="side-nav-title topics">Session_Counter_App</span></a></li>
+                            <li class="nav-item"><a class="nav-link py-0" href="#"><span class="side-nav-title topics">Cookies_Introduction</span></a></li>
+                            <li class="nav-item"><a class="nav-link py-0" href="#"><span class="side-nav-title topics">Cookies_Practical</span></a></li>
+                            <li class="nav-item"><a class="nav-link py-0" href="#"><span class="side-nav-title topics">Personalized_Cookies</span></a></li>
+                            <li class="nav-item"><a class="nav-link py-0" href="#"><span class="side-nav-title topics">Session_wizard_application</span></a></li>
+                        </ul>
+                    </div>                
+              </li>
+              <li class="nav-item border-top">
+                    <div class="doc-heading p-3"><span >JSP</span></div>
+                    <a class="nav-link collapsed text-truncate" href="#submenu10" data-toggle="collapse" data-target="#submenu10"><span class="d-none d-sm-inline side-nav-title">JSP_Introduction</span></a>
+                      <div class="collapse" id="submenu10" aria-expanded="false">
+                          <ul class="flex-column pl-2 nav">
+                              <li class="nav-item"><a class="nav-link py-0" href="#"><span class="side-nav-title topics">Overview_Of_JSP</span></a></li>
+                              <li class="nav-item"><a class="nav-link py-0" href="#"><span class="side-nav-title topics">Sample_App_JSP</span></a></li>
+
+                          </ul>
+                      </div>                
+                </li>
+                <li class="nav-item">
+                        <a class="nav-link collapsed text-truncate" href="#submenu11" data-toggle="collapse" data-target="#submenu11"><span class="d-none d-sm-inline side-nav-title">Implicit_Objects</span></a>
+                          <div class="collapse" id="submenu11" aria-expanded="false">
+                              <ul class="flex-column pl-2 nav">
+                                  <li class="nav-item"><a class="nav-link py-0" href="#"><span class="side-nav-title topics">JSP_Tags_Implicit_Objects</span></a></li>
+                                  <li class="nav-item"><a class="nav-link py-0" href="#"><span class="side-nav-title topics">Implicit_Objects_Practical</span></a></li>
+                                  <li class="nav-item"><a class="nav-link py-0" href="#"><span class="side-nav-title topics">JSP_Directive_Tags</span></a></li>
+                                  <li class="nav-item"><a class="nav-link py-0" href="#"><span class="side-nav-title topics">JSP_Directive_Note</span></a></li>
+                                  <li class="nav-item"><a class="nav-link py-0" href="#"><span class="side-nav-title topics">JSP_Directive_Practical</span></a></li>
+                              </ul>
+                          </div>                
+                    </li>
+                    <li class="nav-item">
+                            <a class="nav-link collapsed text-truncate" href="#submenu12" data-toggle="collapse" data-target="#submenu12"><span class="d-none d-sm-inline side-nav-title">JavaBeans_ActionTags</span></a>
+                              <div class="collapse" id="submenu12" aria-expanded="false">
+                                  <ul class="flex-column pl-2 nav">
+                                      <li class="nav-item"><a class="nav-link py-0" href="#"><span class="side-nav-title topics">JSP_UseBean</span></a></li>
+                                      <li class="nav-item"><a class="nav-link py-0" href="#"><span class="side-nav-title topics">JSP_ActionTag_UseBean_Intro</span></a></li>
+                                      <li class="nav-item"><a class="nav-link py-0" href="#"><span class="side-nav-title topics">Action_tag_practical</span></a></li>
+                                      
+                                  </ul>
+                              </div>                
+                        </li>
+                        <li class="nav-item">
+                                <div class="doc-heading p-3 border-top"><span >Database</span></div>
+                                <a class="nav-link collapsed text-truncate" href="#submenu13" data-toggle="collapse" data-target="#submenu13"><span class="d-none d-sm-inline side-nav-title">DBBasics</span></a>
+                                  <div class="collapse" id="submenu13" aria-expanded="false">
+                                      <ul class="flex-column pl-2 nav">
+                                          <li class="nav-item"><a class="nav-link py-0" href="#"><span class="side-nav-title topics">MySQL_Introduction</span></a></li>
+                                          <li class="nav-item"><a class="nav-link py-0" href="#"><span class="side-nav-title topics">SampleDataBaseSchema</span></a></li>
+                                          <li class="nav-item"><a class="nav-link py-0" href="#"><span class="side-nav-title topics">Database_Design_document</span></a></li>
+                                          <li class="nav-item"><a class="nav-link py-0" href="#"><span class="side-nav-title topics">Filtering_data</span></a></li>
+                                          <li class="nav-item"><a class="nav-link py-0" href="#"><span class="side-nav-title topics">Sorting</span></a></li>
+                                          <li class="nav-item">
+                                              <a class="nav-link collapsed py-1" href="#submenu9sub9" data-toggle="collapse" data-target="#submenu9sub9"><span class="side-nav-title topics">JDBC</span></a>
+                                              <div class="collapse" id="submenu9sub9" aria-expanded="false">
+                                                  <ul class="flex-column nav pl-4">
+                                                      <li class="nav-item">
+                                                          <a class="nav-link p-1 side-nav-title" href="#">Polymorphism </a>
+                                                      </li>
+                                                      <li class="nav-item">
+                                                          <a class="nav-link p-1 side-nav-title" href="#">Inheritance </a>
+                                                      </li>
+                                                      <li class="nav-item">
+                                                          <a class="nav-link p-1 side-nav-title" href="#">Encapsulation </a>
+                                                      </li>
+                                                      <li class="nav-item">
+                                                          <a class="nav-link p-1 side-nav-title" href="#">Abstraction </a>
+                                                      </li>
+                                                  </ul>
+                                              </div>
+                                          </li>
+                                          
+                                      </ul>
+                                  </div>                
+                            </li>
+                            <li class="nav-item">
+                                
+                                <a class="nav-link collapsed text-truncate" href="#submenu14" data-toggle="collapse" data-target="#submenu14"><span class="d-none d-sm-inline side-nav-title">Advance_topics</span></a>
+                                  <div class="collapse" id="submenu14" aria-expanded="false">
+                                      <ul class="flex-column pl-2 nav">
+                                          <li class="nav-item"><a class="nav-link py-0" href="#"><span class="side-nav-title topics">Join</span></a></li>
+                                          <li class="nav-item"><a class="nav-link py-0" href="#"><span class="side-nav-title topics">Grouping_of_data</span></a></li>
+                                          <li class="nav-item"><a class="nav-link py-0" href="#"><span class="side-nav-title topics">SubQuery</span></a></li>
+                                          <li class="nav-item"><a class="nav-link py-0" href="#"><span class="side-nav-title topics">Set_operator</span></a></li>
+                                          <li class="nav-item"><a class="nav-link py-0" href="#"><span class="side-nav-title topics">Modifying_data</span></a></li>
+                                          <li class="nav-item"><a class="nav-link py-0" href="#"><span class="side-nav-title topics">Update</span></a></li>
+                                          <li class="nav-item"><a class="nav-link py-0" href="#"><span class="side-nav-title topics">Update_join</span></a></li>
+                                          <li class="nav-item"><a class="nav-link py-0" href="#"><span class="side-nav-title topics">Delete</span></a></li>
+                                          <li class="nav-item"><a class="nav-link py-0" href="#"><span class="side-nav-title topics">Database_and_table_management</span></a></li>
+                                          <li class="nav-item"><a class="nav-link py-0" href="#"><span class="side-nav-title topics">Transaction</span></a></li>
+                                      </ul>
+                                  </div>                
+                            </li>
+   
+         </ul>
+     </div>
+<div class="col-8 section-content">
+    <article class="main-article">
+        <article class="main-article-inner">
+
+            <div class="transition d-none">
+                <div class="layer"></div>
+                <div class="layer"></div>
+                <div class="layer"></div>
+            </div>
+            <div class="banner-message wrapper">
+            <p class="banner-message-text">This document is developed  for a specific reason; 
+                <a href="feedback.html" class="link">test it out and click here to share your feedback.</a>
+            </p>
+            </div>
+
+    <div class="article-meta">
+        <div class="breadcrumb-list">
+         <ul class="list-inline">
+            <li class="bread-crumb-item">
+                <a href="#">Home  >  </a>
+            </li>
+            <li class="bread-crumb-item">
+                <a href="#">Docs  >  </a>
+            </li>
+            <li class="bread-crumb-item ">
+                <a href="#">Guides </a>
+            </li>
+         </ul>
+        </div>
+       <div>
+        <fieldset class="rating">
+            <input type="radio" id="star5" name="rating" value="5" /><label class = "full" for="star5" title="Excellent Document"></label>
+            
+            <input type="radio" id="star4" name="rating" value="4" /><label class = "full" for="star4" title="Good Document"></label>
+            
+            <input type="radio" id="star3" name="rating" value="3" /><label class = "full" for="star3" title="OK Document"></label>
+            
+            <input type="radio" id="star2" name="rating" value="2" /><label class = "full" for="star2" title="Poor Document"></label>
+           
+            <input type="radio" id="star1" name="rating" value="1" /><label class = "full" for="star1" title="Unusable Document"></label>
+            
+        </fieldset>
+       </div>
+    </div>
+
+    <div data-spy="scroll" data-target="#scrollspy" data-offset="0">
+  <h4 id="item-1" class="page-title">Create a Java Project</h4>
+  <p>Object-Oriented Programming or OOPs refers to languages that uses objects in programming. Object-oriented programming aims to implement real-world entities like inheritance, hiding, polymorphism etc in programming. The main aim of OOP is to bind together the data and the functions that operate on them so that no other part of the code can access this data except that function.</p>
+  <h5 id="item-1-1">Classes</h5>
+  <p>A class is a user defined blueprint or prototype from which objects are created.  It represents the set of properties or methods that are common to all objects of one type. In general, class declarations can include these components, in order:
+
+    Modifiers : A class can be public or has default access (Refer this for details).
+    Class name: The name should begin with a initial letter (capitalized by convention).
+    Superclass(if any): The name of the class’s parent (superclass), if any, preceded by the keyword extends. A class can only extend (subclass) one parent.
+    Interfaces(if any): A comma-separated list of interfaces implemented by the class, if any, preceded by the keyword implements. A class can implement more than one interface.
+    Body: The class body surrounded by braces, { }.
+    Constructors are used for initializing new objects. Fields are variables that provides the state of the class and its objects, and methods are used to implement the behavior of the class and its objects.</p>
+  <h5 id="item-1-2">Object</h5>
+  <p>It is a basic unit of Object Oriented Programming and represents the real life entities.  A typical Java program creates many objects, which as you know, interact by invoking methods. An object consists of :
+
+    State : It is represented by attributes of an object. It also reflects the properties of an object.
+    Behavior : It is represented by methods of an object. It also reflects the response of an object with other objects.
+    Identity : It gives a unique name to an object and enables one object to interact with other objects.</p>
+
+  <h4 id="item-2">Polymorphism</h4>
+  <p>The word polymorphism means having many forms. In simple words, we can define polymorphism as the ability of a message to be displayed in more than one form.
+
+Real life example of polymorphism: A person at the same time can have different characteristic. Like a man at the same time is a father, a husband, an employee. So the same person posses different behaviour in different situations. This is called polymorphism.
+
+Polymorphism is considered as one of the important features of Object Oriented Programming. Polymorphism allows us to perform a single action in different ways. In other words, polymorphism allows you to define one interface and have multiple implementations. The word “poly” means many and “morphs” means forms, So it means many forms.</p>
+  <h4 id="item-3">Coupling</h4>
+  <p>Coupling refers to the usage of an object by another object. It can also be termed as collaboration. This dependency of one object on another object to get some task done can be classified into the following two types:</p>
+  <h5 id="item-3-1">Loose Coupling</h5>
+  <p>In simple words, loose coupling means they are mostly independent. If the only knowledge that class A has about class B, is what class B has exposed through its interface, then class A and class B are said to be loosely coupled. In order to over come from the problems of tight coupling between objects, spring framework uses dependency injection mechanism with the help of POJO/POJI model and through dependency injection its possible to achieve loose coupling.
+   <br><br> Example : If you change your shirt, then you are not forced to change your body – when you can do that, then you have loose coupling. When you can’t do that, then you have tight coupling. The examples of Loose coupling are Interface, JMS.</p>
+  
+  <h5 id="item-3-2">Tight Coupling</h5>
+  <p>In general, Tight coupling means the two classes often change together. In other words, if A knows more than it should about the way in which B was implemented, then A and B are tightly coupled.
+    <br><br>  Example : If you want to change the skin, you would also have to change the design of your body as well because the two are joined together – they are tightly coupled. The best example of tight coupling is RMI(Remote Method Invocation).</p>
+</div>
+</article>
+</article>
+</div>
+     <div class="col-1">
+       <nav id="navbar-right" class=" navbar-light ">
+        <nav class="nav nav-pills flex-column">
+            <a class="nav-link side-nav-title" href="#item-1">OOPS</a>
+        <nav class="nav nav-pills flex-column">
+            <a class="nav-link ml-3 my-1 side-nav-title" href="#item-1-1">Classes</a>
+            <a class="nav-link ml-3 my-1 side-nav-title" href="#item-1-2">Object</a>
+        </nav>
+            <a class="nav-link side-nav-title" href="#item-2">Polymorphism</a>
+            <a class="nav-link side-nav-title" href="#item-3">Coupling</a>
+        <nav class="nav nav-pills flex-column">
+            <a class="nav-link ml-3 my-1 side-nav-title" href="#item-3-1">Loose Coupling</a>
+            <a class="nav-link ml-3 my-1 side-nav-title" href="#item-3-2">Tight Coupling</a>
+        </nav>
+        </nav>
+      </nav>
+     </div>
+   </div>
+  </div>
+</div>
+<!--FOOTER-->
+ <footer id="main-footer" class=" bg-light p-3 ">
+        <div class="wrapper">
+          <div class="row">
+            <div class="col-md-4">
+              <p class="text-dark"><i class="fa fa-cog fa-spin fa-1x"></i> Ouick Links</p>
+              <p>
+                <a href="#" class="footer-link text-dark text-muted">Profile</a><br>
+                <a href="#" class="footer-link text-dark text-muted">Notifications</a><br>
+                <a href="#" class="footer-link text-dark text-muted">Samples</a><br>
+                <a href="#" class="footer-link text-dark text-muted">Menu</a>
+            </p>
+            </div>
+            <div class="col-md-4 ">
+              <p class="text-dark"><i class='fas fa-users'></i> Batch(Jan2020)</p>
+              <p><a href="#" data-toggle="modal" data-target="#developerInfo" class="footer-link text-dark text-muted">Developers Description</a></p>
+              
+
+              <div class="social-bar">
+                <!--FB-->
+                <a href="#" class="social-icon">
+                    <img src="img/facebook.svg" class="social-icons"/>
+                </a>
+                 <!--youtube-->
+                 <a href="#" class="social-icon">
+                    <img src="img/youtube.svg" class="social-icons">
+                </a>
+                <!--skype-->
+                <a href="#" class="social-icon">
+                    <img src="img/skype.svg" class="social-icons"/>
+                </a>
+                <!--linkedin-->
+                <a href="#" class="social-icon">
+                    <img src="img/linkedin.svg" class="social-icons"/>
+                </a>
+                <!--gmail-->
+                <a href="#" class="social-icon">
+                    <img src="img/gmail.svg" class="social-icons"/>
+                </a>
+               
+              </div>
+            </div>
+            <div class="col-md-4 ">
+              <p  class="text-dark "><i class='fas fa-copyright'></i> 2020 Copyright:</p>
+              <img src="img/yash.png" alt="Yash official logo" class="yash-logo">
+            </div>
+          </div>     
+          </div>
+     </div> 
+</footer>
+  <!--MODAL-->
+  <div class="modal fade" id="developerInfo">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title text-dark" id="contactModalLabel">Developed By</h5>
+          <button type="button" class="close" data-dismiss="modal">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <div class="container">
+            <img class="img-responsive  rounded mx-auto d-block" src="img/modal1.jpg" alt="Developer image">
+            <h5 class="text-dark  text-center text-muted">Prateek Dubey</h5>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <p class="text-dark mx-auto d-block">Thank you for Visiting...</p>
+        </div>
+      </div>
+    </div>
+  </div>
+    
+
+    <!-- Optional JavaScript -->
+    <script src="js/script.js" type="text/javascript"></script>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</html>
+   

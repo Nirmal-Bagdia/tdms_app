@@ -1,0 +1,11 @@
+package in.codeblog.tdms.service;
+
+import in.codeblog.tdms.repositories.ProjectRepository;
+
+public class ProjectService {
+ 
+	private void findAllTopics() {
+		ProjectRepository projectRepository;
+		return projectRepository.findAll();
+	}
+}

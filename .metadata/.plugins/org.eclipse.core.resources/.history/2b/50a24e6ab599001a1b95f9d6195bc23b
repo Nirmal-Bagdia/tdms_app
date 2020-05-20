@@ -1,0 +1,7 @@
+# Local mysql database configuration.
+# spring.datasource.url= jdbc:mysql://localhost:3306/ppmtoolapi?serverTimezone=UTC
+# spring.datasource.username= root
+# spring.datasource.password=
+# spring.jpa.generate-ddl=true
+ 
+ server.port=9090
