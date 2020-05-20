@@ -13,7 +13,7 @@ class LeftSideBar extends Component {
     const { projects } = this.props.projects;
     return (
     
-            <div >
+            <div>
                 {projects.map(project => (
                 <SideBarItem key={project.id} project={project} />
               ))}
