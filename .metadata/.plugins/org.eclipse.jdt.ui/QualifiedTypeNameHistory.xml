@@ -19,4 +19,7 @@
 <fullyQualifiedTypeName name="javax.persistence.GenerationType"/>
 <fullyQualifiedTypeName name="javax.validation.constraints.NotBlank"/>
 <fullyQualifiedTypeName name="com.fasterxml.jackson.annotation.JsonFormat"/>
+<fullyQualifiedTypeName name="in.codeblog.tdms.domain.Document"/>
+<fullyQualifiedTypeName name="in.codeblog.tdms.service.DocumentService"/>
+<fullyQualifiedTypeName name="in.codeblog.tdms.service.MapValidationErrorService"/>
 </qualifiedTypeNameHistroy>
