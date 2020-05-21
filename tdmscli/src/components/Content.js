@@ -14,19 +14,12 @@ class Content extends Component {
     const { documents } = this.props.documents;
     return (
     
-        <div className="container">
-          <div className="row">
-            <div className="col-md-4">
-              <LeftSideBar />
-            </div>
+        
            <div className="col-md-8"  id="main-content">
               {documents.map(document => (
                 <ContentItem key={document.id} document={document} />
               ))}
             </div> 
-          </div>
-        </div>
-
     );
   }
 }
