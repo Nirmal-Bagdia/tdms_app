@@ -1,21 +1,21 @@
 import React, { Component } from "react";
 import SideBarItem from "./SideBarItem";
 import { connect } from "react-redux";
-import { getProjects } from "../actions/ProjectActions";
+import { getDocuments } from "../actions/DocumentActions";
 import { PropTypes } from "prop-types";
 
 class LeftSideBar extends Component {
   componentDidMount() {
-    this.props.getProjects();
+    this.props.getDocuments();
   }
 
   render() {
-    const { projects } = this.props.projects;
+    const { documents } = this.props.documents;
     return (
     
             <div>
-                {projects.map(project => (
-                <SideBarItem key={project.id} project={project} />
+                {documents.map(document => (
+                <SideBarItem key={document.id} document={document} />
               ))}
             </div>
     
@@ -23,15 +23,15 @@ class LeftSideBar extends Component {
   }
 }
 LeftSideBar.propTypes = {
-  project: PropTypes.object.isRequired,
-  getProjects: PropTypes.func.isRequired
+  document: PropTypes.object.isRequired,
+  getdocuments: PropTypes.func.isRequired
 };
 
 const mapStateToProps = state => ({
-  projects: state.projects
+  documents: state.documents
 });
 
 export default connect(
   mapStateToProps,
-  { getProjects }
+  { getDocuments }
 )(LeftSideBar);

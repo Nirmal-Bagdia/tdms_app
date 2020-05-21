@@ -1,8 +1,8 @@
 import { combineReducers } from "redux";
 import errorReducer from "./errorReducer";
-import ProjectReducer from "./ProjectReducer";
+import DocumentReducer from "./DocumentReducer";
 
 export default combineReducers({
   errors: errorReducer,
-  projects: ProjectReducer
+  documents: DocumentReducer
 });
