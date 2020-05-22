@@ -1,23 +1,17 @@
 
 #sidebar{
-  margin-top: -0.9%;
-  line-height: 16px;
   font-size: 14px;
   width: 19.5%;
-  margin-left: -1%;
-  padding-top: 10px;
-  padding-left: 15px;
+  margin-left: 15px;
 }
 #main-content #sidebar{
   max-height: 531.5px;
-  overflow-x: hidden;
-  overflow-y: auto;
   position: fixed; 
   height: -webkit-fill-available;
-  height: -moz-fill-available;
-  min-height: -webkit-fill-available;
 }
-
 #main-content{
   margin-top: 105px;
+}
+#contentboard{
+  margin-left:280px;
 }

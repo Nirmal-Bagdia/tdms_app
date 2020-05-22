@@ -13,7 +13,8 @@ class LeftSideBar extends Component {
   render() {
     const { documents } = this.props.documents;
     return (
-      <div className="container">
+      <div className="container-fluid ">
+        <div className="container">
           <div className="row">
             <div className="col-md-4">
                 {documents.map(document => (
@@ -21,8 +22,9 @@ class LeftSideBar extends Component {
               ))}
             </div>
             <Content />
-            </div>
+          </div>
         </div>
+      </div>
 
     );
   }

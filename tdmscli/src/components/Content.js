@@ -1,38 +1,25 @@
 import React, { Component } from "react";
-import ContentItem from "./ContentItem";
-import { connect } from "react-redux";
-import { getDocuments } from "../actions/DocumentActions";
-import { PropTypes } from "prop-types";
-import LeftSideBar from "./LeftSideBar";
+import { Link } from "react-router-dom";
+import Accordion from 'react-bootstrap/Accordion';
 
-class Content extends Component {
-  componentDidMount() {
-    this.props.getDocuments();
-  }
+class SideBarContent extends Component {
 
   render() {
-    const { documents } = this.props.documents;
+    const { document } = this.props;
+
     return (
-    
-        
-           <div className="col-md-8"  id="main-content">
-              {documents.map(document => (
-                <ContentItem key={document.id} document={document} />
-              ))}
-            </div> 
+      <div className="container card card-body" >
+        <div className=" mb-2">
+          <div className="row">
+            <div className="col-md-12 d-lg-block">
+            <h3> {document.subTopic}</h3>
+            <p> {document.content}</p>
+            </div>
+          </div>
+        </div>
+      </div>
     );
   }
 }
-Content.propTypes = {
-  document: PropTypes.object.isRequired,
-  getDocuments: PropTypes.func.isRequired
-};
 
-const mapStateToProps = state => ({
-  documents: state.documents
-});
-
-export default connect(
-  mapStateToProps,
-  { getDocuments }
-)(Content);
+export default SideBarContent;

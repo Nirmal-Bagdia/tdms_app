@@ -22,4 +22,9 @@
 <fullyQualifiedTypeName name="in.codeblog.tdms.domain.Document"/>
 <fullyQualifiedTypeName name="in.codeblog.tdms.service.DocumentService"/>
 <fullyQualifiedTypeName name="in.codeblog.tdms.service.MapValidationErrorService"/>
+<fullyQualifiedTypeName name="in.codeblog.tdms.exception.DocumentIdException"/>
+<fullyQualifiedTypeName name="in.codeblog.tdms.repositories.DocumentRepository"/>
+<fullyQualifiedTypeName name="org.springframework.http.ResponseEntity"/>
+<fullyQualifiedTypeName name="org.springframework.web.bind.annotation.PathVariable"/>
+<fullyQualifiedTypeName name="org.springframework.http.HttpStatus"/>
 </qualifiedTypeNameHistroy>
