@@ -15,7 +15,7 @@ public class Document {
 		@Id
 		@GeneratedValue(strategy = GenerationType.IDENTITY)
 		Long documentId;
-		@NotBlank(message = "Document Name should not be blank")
+		@NotBlank(message = "Subject Name should not be blank")
 		String documentName;
 		@NotBlank(message = "Subject Name should not be blank")
 		String subject;

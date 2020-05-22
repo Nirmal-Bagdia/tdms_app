@@ -13,19 +13,13 @@ class Sidebar extends Component {
     render() {
         const { documents } = this.props.documents;
         return (
-            
             <div className="row" id="main-content">
               <div className="border " id="sidebar">  
-                <Link to={`/Content/${document.documentId}`}>
                   {documents.map(document => (
                    <SideBarContent key={document.documentId} document={document} />
                   ))}
-                </Link>
               </div>
-            </div>
-            
-        
-    
+            </div>    
         )
     }
 }

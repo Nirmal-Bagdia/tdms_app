@@ -15,7 +15,7 @@ class Dashboard extends Component {
           <div className="row">
             <div className="col-md-10">
               {documents.map(document => (
-                <Content key={document.documentId} document={document} />
+                <Content key={document.id} document={document} />
               ))}
             </div>
           </div>
