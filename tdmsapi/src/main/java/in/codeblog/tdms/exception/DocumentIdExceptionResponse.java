@@ -1,17 +1,17 @@
 package in.codeblog.tdms.exception;
 
 public class DocumentIdExceptionResponse {
-	String projectIdentifier;
-	public DocumentIdExceptionResponse(String projectIdentifier)
+	String documentId;
+	public DocumentIdExceptionResponse(String documentId)
 	{
 		super();
-		this.projectIdentifier=projectIdentifier;
+		this.documentId=documentId;
 	}
-	public String getProjectIdentifier() {
-		return projectIdentifier;
+	public String getDocumentId() {
+		return documentId;
 	}
-	public void setProjectIdentifier(String projectIdentifier) {
-		this.projectIdentifier = projectIdentifier;
+	public void setDocumentId(String documentId) {
+		this.documentId = documentId;
 	}
 	
 }

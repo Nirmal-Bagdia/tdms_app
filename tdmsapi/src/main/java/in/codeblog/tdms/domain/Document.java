@@ -28,18 +28,30 @@ public class Document {
 		@JsonFormat(pattern = "dd-MM-yyyy")
 		Date created_At;
 		@JsonFormat(pattern = "dd-MM-yyyy")
-		Date updated_At;		
-		public String getContent() {
-			return content;
+		Date updated_At;	
+		
+		public Document() {
+			super();
 		}
-		public void setContent(String content) {
-			this.content = content;
-		}		
+		@PrePersist
+		protected void onCreate() {
+			this.created_At=new Date();
+		}
+		@PreUpdate
+		protected void onUpdate() {
+			this.updated_At=new Date();
+		}
 		public Long getDocumentId() {
 			return documentId;
 		}
 		public void setDocumentId(Long documentId) {
 			this.documentId = documentId;
+		}
+		public String getDocumentName() {
+			return documentName;
+		}
+		public void setDocumentName(String documentName) {
+			this.documentName = documentName;
 		}
 		public String getSubject() {
 			return subject;
@@ -59,6 +71,12 @@ public class Document {
 		public void setSubTopic(String subTopic) {
 			this.subTopic = subTopic;
 		}
+		public String getContent() {
+			return content;
+		}
+		public void setContent(String content) {
+			this.content = content;
+		}
 		public Date getCreated_At() {
 			return created_At;
 		}
@@ -70,17 +88,6 @@ public class Document {
 		}
 		public void setUpdated_At(Date updated_At) {
 			this.updated_At = updated_At;
-		}
-		public Document() {
-			super();
-		}
-		@PrePersist
-		protected void onCreate() {
-			this.created_At=new Date();
-		}
-		@PreUpdate
-		protected void onUpdate() {
-			this.updated_At=new Date();
 		}
 		
 }

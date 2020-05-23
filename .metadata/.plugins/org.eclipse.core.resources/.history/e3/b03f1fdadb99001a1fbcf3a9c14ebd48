@@ -1,6 +1,0 @@
-package in.codeblog.tdms.repositories;
-
-public interface ProjectRepository {
-
-	<Project> findAllTopics();
-}
